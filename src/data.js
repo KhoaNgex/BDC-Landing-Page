@@ -3,123 +3,121 @@ import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
 import { BsChatDotsFill } from 'react-icons/bs';
 
 // import images
-import AboutImg from '../src/assets/img/about.png';
-import Feature1Img from '../src/assets/img/features/feature1.png';
-import Feature2Img from '../src/assets/img/features/feature2.png';
-import Feature3Img from '../src/assets/img/features/feature3.png';
-import Feature4Img from '../src/assets/img/features/feature4.png';
-import Avatar1Img from '../src/assets/img/testimonials/avatar1.png';
-import Avatar2Img from '../src/assets/img/testimonials/avatar2.png';
-import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
-import LogoV2 from '../src/assets/img/logo-v2.png';
+import VisionImg from '../src/assets/img/vision.png';
+import Feature1Img from '../src/assets/img/features/creativity.png';
+import Feature2Img from '../src/assets/img/features/knowledge.png';
+import Feature3Img from '../src/assets/img/features/human.png';
+import Feature4Img from '../src/assets/img/features/profess.png';
 import HeroImage from '../src/assets/img/hero-img.png';
 import Feature1BgImg from '../src/assets/img/features/feature1_bg.png';
 import Feature2BgImg from '../src/assets/img/features/feature2_bg.png';
 import Feature3BgImg from '../src/assets/img/features/feature3_bg.png';
 import Feature4BgImg from '../src/assets/img/features/feature4_bg.png';
+import SkyMissionImg from '../src/assets/img/missions/sky.png';
+import IndigoMissionImg from "../src/assets/img/missions/indigo.png";
+import VioletMissionImg from "../src/assets/img/missions/violet.png";
 
 export const navigationData = [
   {
-    name: 'About',
-    href: '#',
+    name: "About us",
+    href: "#",
   },
   {
-    name: 'Help',
-    href: '#',
+    name: "Our Blog",
+    href: "#",
   },
   {
-    name: 'Features',
-    href: '#',
+    name: "Academic Activities",
+    href: "#",
   },
   {
-    name: 'Signup',
-    href: '#',
+    name: "Extra-curricular Activities",
+    href: "#",
+  },
+  {
+    name: "FAQs",
+    href: "#",
   },
 ];
 
 export const heroData = {
-  title: ` Save your data storage here.`,
+  title1: ` Think big `,
+  title2: ` Speak data `,
   subtitle:
-    'Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.',
-  btnText: 'Learn more',
+    "Big Data Club is an academic club for all students in the Faculty of Computer Science & Engineering of Ho Chi Minh City University of Technology.",
+  btnText: "Learn more",
   image: HeroImage,
 };
 
-export const aboutData = {
-  image: AboutImg,
-  title: 'We are a high-level data storage bank',
-  subtitle:
-    'The place to store various data that you can access at any time through the internet  and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse.',
-};
-
 export const featuresData = {
-  title: 'Features',
+  title: "Our Core Values",
   subtitle:
-    'Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.',
+    "Established with the aim of creating a professional academic environment for students who have a passion for the fields of Data Science, Data Analytics, High Performance Computing, etc. We uphold 4 core values as our development orientation.",
   list: [
     {
       image: Feature1Img,
       bgImage: Feature1BgImg,
-      title: 'Search Data',
+      title: "Creative",
       description:
-        'Don’t worry if your data is very large, the Data Warehouse provides a search engine, which is useful for making it easier to find data effectively saving time.',
-      linkText: 'Learn more',
-      delay: '400',
+        "BDC always encourages its members to conduct research on fresh techniques that are more efficient than earlier approaches while still being based on fundamental principles.",
+      linkText: "Learn more",
+      delay: "400",
     },
     {
       image: Feature2Img,
       bgImage: Feature2BgImg,
-      title: '24 Hours Access',
+      title: "Knowledge-based",
       description:
-        'Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent..',
-      linkText: 'Learn more',
-      delay: '700',
+        "In addition to its members' intense development objectives, BDC places a strong emphasis on developing fundamental knowledge and laying the groundwork for both academic pursuits and scientific research.",
+      linkText: "Learn more",
+      delay: "700",
     },
     {
       image: Feature3Img,
       bgImage: Feature3BgImg,
-      title: 'Print Out',
+      title: "People-oriented",
       description:
-        'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
-      linkText: 'Learn more',
-      delay: '1000',
+        "In addition to scientific discoveries, BDC focuses on study techniques, teamwork skills, and other critical soft skills.",
+      linkText: "Learn more",
+      delay: "1000",
     },
     {
       image: Feature4Img,
       bgImage: Feature4BgImg,
-      title: 'Security Code',
+      title: "Professional",
       description:
-        'Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password than you created, so only you can open the file.',
-      linkText: 'Learn more',
-      delay: '1300',
+        "BDC's effective operating model is the result of the hard work and innovation of its members, who also possess strong communication, analytical, and problem-solving abilities.",
+      linkText: "Learn more",
+      delay: "1300",
     },
   ],
 };
 
-export const testimonialsData = [
+export const visionData = {
+  image: VisionImg,
+  title: "Our Vision",
+  subtitle:
+    "Big Data Club seeks to create a professional and highly collaborative environment for scientific and technical research with members who are passionate about big data in particular and the field of technology in general.",
+};
+
+export const missionData = [
   {
-    image: Avatar1Img,
-    name: 'John Fang',
-    web: 'wordfaang.com',
-    message:
-      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
-    delay: '300',
+    image: SkyMissionImg,
+    content:
+      "Fostering members' love for study and education by assisting them in developing a thorough understanding of the specific expertise of big data.",
+    bgcolor: "bg-blue-50",
   },
   {
-    image: Avatar2Img,
-    name: 'Jane Doe',
-    web: 'janedoee.com',
-    message:
-      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
-    delay: '600',
+    image: IndigoMissionImg,
+    content:
+      "Give students the chance to compete in academic Big Data competitions both domestically and internationally.",
+    bgcolor: "bg-indigo-50",
   },
   {
-    image: Avatar3Img,
-    name: 'Jim Ferry',
-    web: 'jimjimf.com',
-    message:
-      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
-    delay: '900',
+    image: VioletMissionImg,
+    content:
+      "Establish a setting where students can improve and enhance their personal skills, particularly their academic proficiency.",
+    bgcolor: "bg-violet-50",
   },
 ];
 
@@ -131,7 +129,7 @@ export const ctaData = {
 };
 
 export const footerData = {
-  logo: LogoV2,
+  //logo: Logo,
   address: 'Warehouse Society, 234 Bahagia Ave Street PRBW 29281',
   email: 'info@warehouse.project',
   phone: '1-232-3434 (Main)',

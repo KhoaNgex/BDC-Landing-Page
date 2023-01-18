@@ -42,3 +42,9 @@
     @apply text-lg text-secondary font-secondary font-medium leading-relaxed;
   }
 }
+
+@layer components {
+  .underline-decor {
+    @apply underline decoration-2 decoration-wavy underline-offset-4 decoration-indigo-500;
+  }
+}
